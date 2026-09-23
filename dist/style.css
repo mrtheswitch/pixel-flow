@@ -5,3 +5,5 @@
 .row:has(#format){display:block}.row:has(#format) label{display:block;margin-bottom:10px}#format{width:100%}
 
 #rotateHandle{position:absolute;width:38px;height:38px;padding:0;border-radius:50%;border:1px solid #ffffff90;background:#171b2bdd;color:white;box-shadow:0 2px 12px #0005;font-size:25px;line-height:1;transform:translate(-50%,-50%);touch-action:none;cursor:grab;z-index:2}#rotateHandle:active{cursor:grabbing;background:#234dff}#rotationGuide{position:absolute;height:1px;background:#ffffff70;transform-origin:0 50%;pointer-events:none;z-index:1}.stage #rotateHandle:focus-visible{outline:3px solid #7694ff}
+
+[hidden]{display:none!important}.modes{display:flex;gap:4px;padding:20px 40px 0;max-width:1800px;margin:auto}.modes button{background:transparent;color:#777;font-size:14px}.modes button[aria-pressed=true]{background:#18191d;color:white}.modes+main{padding-top:24px}@media(max-width:700px){.modes{padding:18px 18px 0}}

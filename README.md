@@ -27,3 +27,7 @@ Open http://127.0.0.1:4318 in a browser with WebGL support.
 - `dist/app.js` — WebGL shader, controls, animation, and PNG export
 
 The `dist` directory contains the editable source and can be served by a static web host.
+
+## Dots Grid mode
+
+Use the mode switch above the canvas to open Dots Grid. This mode adapts the original animated dot-grid component from the local `focus-design-system` project (commit `5716bb9`) to WebGL. Square dots retain independent phases and rates of twinkling. Controls adjust dot size, spacing, color, opacity, twinkle intensity, and playback speed. Dot size and spacing use a 900-unit canvas height, keeping the composition consistent between preview and PNG export. Both modes share output formats; mode-specific controls retain their values while switching.
